@@ -23,7 +23,7 @@
         "https://matrix.org": false,
         "https://matrix-client.matrix.org": false,
         "https://ari.lt": true,
-        "https://matrix.ari.lt": true,
+        "https://matrix.ari.lt": true
     },
     "terms_and_conditions_links": [
         {
