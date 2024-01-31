@@ -21,12 +21,18 @@
     },
     "enable_presence_by_hs_url": {
         "https://matrix.org": false,
-        "https://matrix-client.matrix.org": false
+        "https://matrix-client.matrix.org": false,
+        "https://ari.lt": true,
+        "https://matrix.ari.lt": true,
     },
     "terms_and_conditions_links": [
         {
             "url": "https://schildi.chat/desktop/privacy",
-            "text": "Privacy Policy"
+            "text": "Client Privacy Policy"
+        },
+        {
+            "url": "https://ari.lt/matrix",
+            "text": "Guidelines and Policies"
         }
     ],
     "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx",
