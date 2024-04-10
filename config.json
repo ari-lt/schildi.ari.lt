@@ -1,10 +1,16 @@
 {
+    "update_base_url": null,
     "default_server_config": {
         "m.homeserver": {
-                "base_url": "https://matrix.ari.lt"
-        }
+            "base_url": "https://matrix.ari.lt",
+            "server_name": "ari.lt"
+        },
+	"m.identity_server": {
+            "base_url": "https://vector.im",
+            "server_name": "vector.im"
+	}
     },
-    "brand": "SchildiChat",
+    "brand": "Ari::web -> SchildiChat",
     "integrations_ui_url": "https://scalar.vector.im/",
     "integrations_rest_url": "https://scalar.vector.im/api",
     "integrations_widgets_urls": [
@@ -17,6 +23,8 @@
     "show_labs_settings": true,
     "room_directory": {
         "servers": [
+            "ari.lt",
+            "envs.net",
             "matrix.org",
             "gitter.im",
             "libera.chat",
@@ -26,19 +34,25 @@
     "enable_presence_by_hs_url": {
         "https://matrix.org": false,
         "https://matrix-client.matrix.org": false,
-        "https://ari.lt": true,
-        "https://matrix.ari.lt": true
+        "https://ari.lt": false,
+        "https://matrix.ari.lt": false
     },
     "terms_and_conditions_links": [
         {
-            "url": "https://schildi.chat/desktop/privacy",
-            "text": "Client Privacy Policy"
-        },
-        {
-            "url": "https://ari.lt/matrix",
-            "text": "Guidelines and Policies"
+            "url": "https://ari.lt/page/matrix",
+            "text": "Terms, privacy, and guidelines"
         }
     ],
     "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx",
-    "disable_3pid_login": true
+    "disable_3pid_login": true,
+    "show_labs_settings": true,
+    "default_country_code": "GB",
+    "jitsi": {
+        "preferred_domain": "meet.jit.si"
+     },
+     "element_call": {
+         "url": "https://call.element.io",
+         "participant_limit": 8,
+         "brand": "Element Call"
+     }
 }
